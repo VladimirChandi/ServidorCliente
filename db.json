@@ -1,0 +1,43 @@
+{
+  "corredores": [
+    {
+      "nombre": "Santiago",
+      "velocidad": 10,
+      "id": 2
+    },
+    {
+      "nombre": "Belen",
+      "velocidad": 12,
+      "id": 3
+    },
+    {
+      "nombre": "Marta",
+      "velocidad": 12,
+      "id": 6
+    },
+    {
+      "nombre": "Pepito",
+      "velocidad": "10",
+      "id": 7
+    },
+    {
+      "distancia": 10,
+      "id": 8
+    },
+    {
+      "nombre": "Marisol",
+      "velocidad": "9",
+      "id": 9
+    },
+    {
+      "nombre": "Isabela",
+      "velocidad": "5",
+      "id": 10
+    },
+    {
+      "nombre": "Juan Perez",
+      "velocidad": 12,
+      "id": 11
+    }
+  ]
+}

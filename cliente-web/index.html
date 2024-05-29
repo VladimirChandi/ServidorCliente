@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cliente de Carreras</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Menu Corredores</h1>
+
+  <div id="resultados"></div>
+  <div class="participantes" id="participantes"></div>
+
+  <!-- Formulario para agregar un nuevo corredor -->
+  <div id="formAgregarCorredor">
+    <h2>Agregar Nuevo Corredor</h2>
+    <form id="nuevoCorredorForm">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="velocidad">Velocidad (km/h):</label>
+      <input type="number" id="velocidad" name="velocidad" required>
+      <div class="button-group">
+        <button type="submit">Agregar Corredor</button>
+        
+        <button type="button" id="btnVerParticipantes">Ver Corredores</button>
+        <button type="button" id="btnMostrarGanador">Mostrar Ganador</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
